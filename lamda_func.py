@@ -6,3 +6,10 @@
 #     
 #     Output: [('Bob', 25), ('Alice', 30), ('Charlie', 35)]
 #     
+def  sort_by_age(employees : list):
+    sorted_data = sorted(employees , key = lambda x:x[1])
+    return sorted_data
+
+
+employees = [('Bob', 25), ('Alice', 30), ('Charlie', 35)]
+print(sort_by_age(employees))
