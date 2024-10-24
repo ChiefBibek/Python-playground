@@ -12,7 +12,7 @@ Python playground area where I practice python for Data Science from Scratch , a
 
 #### **Part 1: Python Programming Basics (30 minutes)**
 
-1.  **List and String Manipulation (5 points)**  
+1.  **List and String Manipulation. (5 points)**  
     Write a function `reverse_even_strings(strings: list)` that takes a list of strings and returns a new list where all strings with even lengths are reversed. Strings with odd lengths should remain unchanged.
 
     Example:
